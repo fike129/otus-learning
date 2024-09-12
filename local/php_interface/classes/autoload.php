@@ -11,7 +11,7 @@ spl_autoload_register(function (string $class): void
     }
 
 
-//    $class = str_replace(search: '\\', replace: '/', $class);
+    $class = str_replace(search: '\\', replace: '/', $class);
 
 
     $path = __DIR__ . '/classes/' . $class . '.php';
